@@ -1,0 +1,40 @@
+.body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Form{
+text-align: center;
+background-color: black;
+color: #ffffff;
+margin: -10px ;
+padding: 5px 10px 30px 10px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+#search{
+    height: 40px;
+    width: 35%;
+    margin: 5px;
+    text-align: center;
+}
+
+#submit{
+    height: 40px;
+    width: 90px;
+}
+
+#result{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
+/* MQ in CSS */
+
+/* @media screen and (max-width: 450px) {
+    #result {
+        grid-template-columns: 1;
+    }
+} */
